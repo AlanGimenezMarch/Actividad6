@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.alan_.actividad6.MainActivity">
+
+
+    <item
+        android:title="Ajustes"
+        android:orderInCategory="80"
+        app:showAsAction="never"
+        android:id="@+id/im_ajustes" />
+    <item
+        android:id="@+id/im_fav"
+        android:title="Favoritos"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="90"
+        android:icon="@android:drawable/btn_star_big_off" />
+    <item
+        android:id="@+id/im_pf"
+        android:title="Preguntas frecuentes"
+        app:showAsAction="always"
+        android:orderInCategory="81"
+        android:icon="@android:drawable/ic_menu_help" />
+
+    <item
+        android:id="@+id/im_buscar"
+        android:title="Buscar"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="70"
+        android:icon="?android:attr/actionModeWebSearchDrawable"/>
+</menu>
